@@ -16,6 +16,10 @@ public class HandleShadowDomElements {
 		
 		driver.manage().window().maximize();
 		
+		//driver.findElement(By.cssSelector("book-app[apptitle='BOOKS']")).sendKeys("WELCOME");
+		//NoSuchElementException.
+		
+		
 		SearchContext shadow = driver.findElement(By.cssSelector("book-app[apptitle='BOOKS']")).getShadowRoot();
         
 		shadow.findElement(By.cssSelector("#input")).sendKeys("WELCOME");
