@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-01T16:03:38 IST" name="mysuite" finished-at="2024-09-01T16:04:18 IST" duration-ms="40679">
+    <groups>
+    </groups>
+    <test started-at="2024-09-01T16:03:38 IST" name="my tests" finished-at="2024-09-01T16:04:18 IST" duration-ms="40679">
+      <class name="com.testNG.FirstTestCase">
+        <test-method signature="openApp()[pri:-1, instance:com.testNG.FirstTestCase@485966cc]" started-at="2024-09-01T16:04:18 IST" name="openApp" finished-at="2024-09-01T16:04:18 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="Login()[pri:0, instance:com.testNG.FirstTestCase@485966cc]" started-at="2024-09-01T16:04:18 IST" name="Login" finished-at="2024-09-01T16:04:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Logout()[pri:1, instance:com.testNG.FirstTestCase@485966cc]" started-at="2024-09-01T16:04:18 IST" name="Logout" finished-at="2024-09-01T16:04:18 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.testNG.FirstTestCase -->
+      <class name="com.testNG.OrangeHrmTest">
+        <test-method signature="openapp()[pri:1, instance:com.testNG.OrangeHrmTest@618425b5]" started-at="2024-09-01T16:03:38 IST" name="openapp" finished-at="2024-09-01T16:04:07 IST" duration-ms="29666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="testlogo()[pri:2, instance:com.testNG.OrangeHrmTest@618425b5]" started-at="2024-09-01T16:04:07 IST" name="testlogo" finished-at="2024-09-01T16:04:13 IST" duration-ms="5230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogo -->
+        <test-method signature="testlogin()[pri:3, instance:com.testNG.OrangeHrmTest@618425b5]" started-at="2024-09-01T16:04:13 IST" name="testlogin" finished-at="2024-09-01T16:04:17 IST" duration-ms="4812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method signature="testlogout()[pri:4, instance:com.testNG.OrangeHrmTest@618425b5]" started-at="2024-09-01T16:04:17 IST" name="testlogout" finished-at="2024-09-01T16:04:18 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogout -->
+      </class> <!-- com.testNG.OrangeHrmTest -->
+    </test> <!-- my tests -->
+  </suite> <!-- mysuite -->
+</testng-results>
