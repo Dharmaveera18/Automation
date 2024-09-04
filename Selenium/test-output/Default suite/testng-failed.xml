@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OrangeHrmTest">
+      <class name="com.testNG.HardVSSoft_Assertions">
         <methods>
-          <include name="testlogin"/>
-          <include name="testlogo"/>
-          <include name="openapp"/>
+          <include name="test_Assertions"/>
         </methods>
-      </class> <!-- OrangeHrmTest -->
+      </class> <!-- com.testNG.HardVSSoft_Assertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
