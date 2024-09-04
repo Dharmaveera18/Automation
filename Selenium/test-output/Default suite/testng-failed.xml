@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testNG.HardVSSoft_Assertions">
+      <class name="testNG_Parameterization.Parameter_Test">
         <methods>
-          <include name="test_Assertions"/>
+          <include name="test_Logo"/>
+          <include name="tearDown"/>
+          <include name="test_Url"/>
+          <include name="setUp"/>
+          <include name="test_Title"/>
         </methods>
-      </class> <!-- com.testNG.HardVSSoft_Assertions -->
+      </class> <!-- testNG_Parameterization.Parameter_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
