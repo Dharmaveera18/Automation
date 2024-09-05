@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_Parameterization.Parameter_Test">
+      <class name="testNg_Listeners.OrangeHrm_Test">
         <methods>
+          <include name="setUp"/>
+          <include name="test_Url"/>
           <include name="test_Logo"/>
           <include name="tearDown"/>
-          <include name="test_Url"/>
-          <include name="setUp"/>
-          <include name="test_Title"/>
         </methods>
-      </class> <!-- testNG_Parameterization.Parameter_Test -->
+      </class> <!-- testNg_Listeners.OrangeHrm_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
